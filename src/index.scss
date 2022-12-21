@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #6a5be2;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,6 +27,12 @@ button {
   color: #fff;
   margin-top: 20px;
   cursor: pointer;
+}
+.border{
+  background: #0ff;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 30px;
 }
 .App {
   width: 700px;
